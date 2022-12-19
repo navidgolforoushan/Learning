@@ -1,0 +1,20 @@
+mutation NewStatus($input: ChangeUserStatusInput!) {
+  changeUserStatus(input: $input) {
+    clientMutationId,
+    status {
+      message,
+      emoji
+    }
+  }
+}
+
+
+--------------------------------------
+
+{
+  "input": {
+    "clientMutationId": "10101010",
+    "message": "Demo for GraphQl!",
+    "emoji": ":orangutan:"
+  }
+}
