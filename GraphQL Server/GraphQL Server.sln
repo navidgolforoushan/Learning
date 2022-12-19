@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLDemo.Api", "GraphQLDemo.Api\GraphQLDemo.Api.csproj", "{4AAA4F98-53D2-4B0D-A632-D36512FF346C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQLDemo.Api", "GraphQLDemo.Api\GraphQLDemo.Api.csproj", "{4AAA4F98-53D2-4B0D-A632-D36512FF346C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLDemo.Data", "GraphQLDemo.Data\GraphQLDemo.Data.csproj", "{1971DB5C-C2D5-4A2C-8004-7DB46022C2A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQLDemo.Data", "GraphQLDemo.Data\GraphQLDemo.Data.csproj", "{1971DB5C-C2D5-4A2C-8004-7DB46022C2A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
