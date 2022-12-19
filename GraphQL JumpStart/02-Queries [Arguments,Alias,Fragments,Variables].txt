@@ -1,0 +1,24 @@
+query followersInfo($pageSize:Int!){
+ topFollowers: followers (last:$pageSize){
+	nodes:{ 
+		...userInfo
+  }
+ }
+ bottomFollowers: followers (first:$pageSize){
+  	nodes:{
+		...userInfo
+  }
+ }
+}
+
+Fragment userInfo on User{
+	id,
+	bio,
+	name
+}
+
+----------------------------------------------------
+
+{
+	pageSize:3
+}
