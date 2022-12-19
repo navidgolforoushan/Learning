@@ -1,0 +1,34 @@
+ID
+String
+FLoat
+Int
+
+enume enumeName{
+	e1
+	e2
+	e3
+	...
+}
+
+schema{
+	query: Query
+	mutation: Mutation
+}
+
+
+type Query{
+	authors:[Author]
+}
+
+type Mutation{
+	addAuthor(firstName:String, lastName:String): Author
+}
+
+type Author{
+	id:ID!
+	firstName:String,
+	lastName:String,
+	rating:Float,
+	numberOfBooks: Int,
+	books:[Book!]
+}
