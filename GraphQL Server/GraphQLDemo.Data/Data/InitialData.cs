@@ -4,6 +4,7 @@ namespace GraphQLDemo.Data.Data
 {
     public class InitialData
     {
+        //TODO: void Seed(this ApplicationContext dbContext)
         public InitialData()
         {
             Profiles = new List<Profile> { 
